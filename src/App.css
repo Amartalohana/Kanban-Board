@@ -1,4 +1,38 @@
-.App {
+.kanban-board {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.kanban-column {
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  flex-basis: calc(33.33% - 16px);
+  padding: 8px;
+  margin: 8px;
+}
+
+.kanban-column h3 {
+  margin: 0;
+  padding: 8px 0;
+  text-align: center;
+}
+
+.kanban-tasks {
+  min-height: 100px;
+}
+
+.kanban-task {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 8px;
+  padding: 8px;
+}
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +69,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
